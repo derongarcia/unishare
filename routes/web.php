@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('auth.auth');
 })->name('home');
 
+Route::get('/', function () {
+    return view('user.dashboard');
+})->name('dashboard');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
