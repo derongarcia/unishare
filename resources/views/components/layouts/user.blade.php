@@ -11,7 +11,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ $title }} · UniShare</title>
 
-    @vite(['resources/css/layout.css', 'resources/js/layout.js'])
+@vite(['resources/css/tailwind.css', 'resources/css/layout.css', 'resources/js/layout.js'])
 
     @stack('styles')
 </head>
