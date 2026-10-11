@@ -27,6 +27,7 @@
     --bs-body-color: #1f2937;
     --bs-body-bg: #f3f8f5;
     --bs-border-radius: 10px;
+    --bs-secondary-color: #6b7280;
 
 }
 
@@ -51,7 +52,7 @@
 }
 
 
-@layer base {
+
 * { box-sizing: border-box; }
 
 body {
@@ -64,7 +65,7 @@ body {
 
 a { color: inherit; text-decoration: none; }
 h1, h2, h3, p { margin: 0; }
-}
+
 
 .layout-app { display: flex; min-height: 100vh; }
 .layout-content { flex: 1; min-width: 0; }
