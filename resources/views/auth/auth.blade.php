@@ -45,6 +45,7 @@
             </p>
             <button class="ghost" id="login">Login</button>
           </div>
+          
           <div class="overlay-panel overlay-right">
             <h1 class="title">UniShare</h1>
             <p>Share skills. Share things. Build your campus community.</p>
