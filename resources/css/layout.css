@@ -21,6 +21,9 @@
 
 * { box-sizing: border-box; }
 
+@layer base {
+* { box-sizing: border-box; }
+
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -31,7 +34,7 @@ body {
 
 a { color: inherit; text-decoration: none; }
 h1, h2, h3, p { margin: 0; }
-
+}
 
 .layout-app { display: flex; min-height: 100vh; }
 .layout-content { flex: 1; min-width: 0; }
