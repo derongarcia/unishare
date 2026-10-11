@@ -13,8 +13,6 @@ export default defineConfig({
                 'resources/css/auth.css', 
                 'resources/js/auth.js',
                 
-
-                'resources/css/tailwind.css',
                 'resources/css/layout.css',
                 'resources/js/layout.js',
 
