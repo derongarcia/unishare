@@ -42,6 +42,27 @@
     --bs-btn-disabled-border-color: var(--primary);
 }
 
+/* Card Bootstrap mengikuti desain UniShare */
+.card {
+    --bs-card-bg: var(--surface);
+    --bs-card-border-color: var(--border);
+    --bs-card-border-radius: var(--radius);
+    --bs-card-spacer-x: 20px;
+    --bs-card-spacer-y: 20px;
+    box-shadow: var(--shadow);
+}
+
+/* Tabel & list-group: latar transparan agar mengikuti warna card */
+.table {
+    --bs-table-bg: transparent;
+    --bs-border-color: var(--border);
+}
+
+.list-group {
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: var(--border);
+}
+
 .btn-outline-primary {
     --bs-btn-color: var(--primary);
     --bs-btn-border-color: var(--primary);

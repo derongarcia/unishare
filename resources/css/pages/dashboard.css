@@ -1,0 +1,27 @@
+.dash-greeting {
+    background: #c5d8cc;
+    border-radius: 999px;
+    padding: 14px 28px 14px 14px;
+}
+
+.dash-avatar {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    display: grid;
+    place-items: center;
+}
+
+.dash-skill-row {
+    background: var(--primary-soft);
+}
+
+.dash-dot {
+    width: 9px;
+    height: 9px;
+}
