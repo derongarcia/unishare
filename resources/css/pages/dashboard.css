@@ -25,7 +25,3 @@
     width: 9px;
     height: 9px;
 }
-
-@media (max-width: 991.98px) {
-    .dash-greeting { border-radius: var(--radius); }
-}
