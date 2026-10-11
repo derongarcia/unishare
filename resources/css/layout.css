@@ -19,8 +19,6 @@
     --sidebar-width: 230px;
 }
 
-* { box-sizing: border-box; }
-
 @layer base {
 * { box-sizing: border-box; }
 
