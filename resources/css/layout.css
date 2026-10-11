@@ -17,9 +17,39 @@
     --radius: 14px;
     --shadow: 0 1px 3px rgba(16, 64, 40, 0.06);
     --sidebar-width: 230px;
+
+    --bs-primary: #168a5b;
+    --bs-primary-rgb: 22, 138, 91;
+    --bs-link-color-rgb: 22, 138, 91;
+    --bs-link-hover-color-rgb: 17, 112, 74;
+    --bs-body-font-family: "Poppins", sans-serif;
+    --bs-body-font-size: 14px;
+    --bs-body-color: #1f2937;
+    --bs-body-bg: #f3f8f5;
+    --bs-border-radius: 10px;
+
 }
 
-* { box-sizing: border-box; }
+.btn-primary {
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: var(--primary);
+    --bs-btn-hover-bg: var(--primary-dark);
+    --bs-btn-hover-border-color: var(--primary-dark);
+    --bs-btn-active-bg: var(--primary-dark);
+    --bs-btn-active-border-color: var(--primary-dark);
+    --bs-btn-disabled-bg: var(--primary);
+    --bs-btn-disabled-border-color: var(--primary);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--primary);
+    --bs-btn-border-color: var(--primary);
+    --bs-btn-hover-bg: var(--primary);
+    --bs-btn-hover-border-color: var(--primary);
+    --bs-btn-active-bg: var(--primary-dark);
+    --bs-btn-active-border-color: var(--primary-dark);
+}
+
 
 body {
     margin: 0;
