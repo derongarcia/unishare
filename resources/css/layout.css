@@ -27,6 +27,7 @@
     --bs-body-color: #1f2937;
     --bs-body-bg: #f3f8f5;
     --bs-border-radius: 10px;
+    --bs-secondary-color: #6b7280;
 
 }
 
@@ -50,6 +51,9 @@
     --bs-btn-active-border-color: var(--primary-dark);
 }
 
+
+
+* { box-sizing: border-box; }
 
 body {
     margin: 0;

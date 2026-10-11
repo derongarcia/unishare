@@ -12,14 +12,14 @@ export default defineConfig({
                 'resources/js/app.js', 
                 'resources/css/auth.css', 
                 'resources/js/auth.js',
-
+                
                 'resources/css/layout.css',
                 'resources/js/layout.js',
 
                 'resources/css/pages/dashboard.css',
                 'resources/js/pages/dashboard.js',
-                'resources/css/pages/transaction.css',
-                'resources/js/pages/transaction.js',
+                'resources/css/pages/transactions.css',
+                'resources/js/pages/transactions.js',
                 'resources/css/pages/skills.css',
                 'resources/js/pages/skills.js',
                 'resources/css/pages/borrowing.css',
