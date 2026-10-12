@@ -8,8 +8,6 @@
     @endpush
 
     <div class="borrowing-page">
-
-        {{-- Page Header --}}
         <div class="d-flex justify-content-between align-items-center mb-4">
             <div>
                 <h1 class="h3 fw-bold mb-1">Browse & Borrow Items</h1>
@@ -23,7 +21,6 @@
             </button>
         </div>
 
-        {{-- Search and Filter --}}
         <div class="borrowing-filters mb-4">
             <div class="row g-3 align-items-center">
                 <div class="col-12 col-lg">
@@ -55,7 +52,6 @@
             </div>
         </div>
 
-        {{-- Recommended Items --}}
         <section class="mb-4">
             <h2 class="h5 fw-bold mb-3">Recommended Items</h2>
             <p class="text-body-secondary small mb-3">
@@ -91,7 +87,6 @@
                     </div>
                 </div>
 
-                {{-- Item Card 2 --}}
                 <div>
                     <div class="card h-100 borrowing-item-card">
                         <div class="borrowing-item-image">
@@ -118,7 +113,6 @@
                     </div>
                 </div>
 
-                {{-- Item Card 3 --}}
                 <div>
                     <div class="card h-100 borrowing-item-card">
                         <div class="borrowing-item-image">
