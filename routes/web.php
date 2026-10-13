@@ -29,4 +29,12 @@ Route::middleware(['auth'])->group(function () {
     Volt::route('settings/appearance', 'settings.appearance')->name('settings.appearance');
 });
 
+Route::get('/skills/exchange', function () {
+    return view('user.skills.exchange');
+})->name('skills.exchange');
+
+Route::get('/skills/add', function () {
+    return view('user.skills.add');
+})->name('skills.add');
+
 require __DIR__.'/auth.php';

@@ -1,0 +1,98 @@
+body {
+    background-color: #eaf4ed;
+    color: #2d3748;
+}
+
+.skills-page {
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+.skills-page .form-control, .skills-page .form-select {
+    border-color: #dee2e6;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #495057;
+}
+
+.skills-page .form-control:focus, .skills-page .form-select:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.15);
+}
+
+.skills-page .btn-add {
+    background-color: #198754;
+    border-radius: 30px;
+    color: white;
+}
+
+.skills-page .btn-success {
+    --bs-btn-bg: #198754;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-bg: #157347;
+    --bs-btn-hover-border-color: #146c43;
+    --bs-btn-active-bg: #146c43;
+    --bs-btn-active-border-color: #146c43;
+}
+
+.skills-page .btn-outline-success {
+    --bs-btn-color: #198754;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+}
+
+.skills-page .student-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.skills-page .avatar-green {
+    background-color: #198754;
+    color: #fff;
+}
+
+.skills-page .avatar-yellow {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.skills-page .skill-teach {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.55rem 0.75rem;
+}
+
+.skills-page .skill-learn {
+    background-color: #fff3cd;
+    color: #664d03;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.55rem 0.75rem;
+}
+
+.skills-page .student-card, .skills-page .card {
+    background-color: #fff;
+}
+
+.add-skill-form .form-input {
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+    .skills-page > header h1 {
+        font-size: 1.4rem;
+    }
+}
